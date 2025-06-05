@@ -69,3 +69,4 @@ include device/amlogic/common/BoardConfigAmlogic.mk
 
 ## Include the common proprietary BoardConfig makefile
 include vendor/amlogic/g12-common/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
